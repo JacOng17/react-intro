@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,4 +29,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.formStyle_Top {
+  margin: 50;
+  padding: 10;
+  width: 300;
+  border: "1px solid black";
+  background-color: "black";
+  color: "white"
 }
