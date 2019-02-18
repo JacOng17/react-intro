@@ -12,8 +12,16 @@ class SimpleForm extends React.Component {
     lastNameError: ""
   };
 
-  validateName = name => {
+  validateFirstName = name => {
     const regex = /[A-Za-z]{3,}/;
+
+    return !regex.test(name)
+      ? "The name must contain at least three letters. Numbers and special characters are not allowed."
+      : "";
+  };
+
+  validateLastName = name => {
+    const regex = /[A-Za-z]{1,}/;
 
     return !regex.test(name)
       ? "The name must contain at least three letters. Numbers and special characters are not allowed."
@@ -23,7 +31,7 @@ class SimpleForm extends React.Component {
   onFirstNameBlur = () => {
     const { firstName } = this.state;
 
-    const firstNameError = this.validateName(firstName);
+    const firstNameError = this.validateFirstName(firstName);
 
     return this.setState({ firstNameError });
   };
@@ -36,7 +44,7 @@ class SimpleForm extends React.Component {
   onLastNameBlur = () => {
     const { lastName } = this.state;
 
-    const lastNameError = this.validateName(lastName);
+    const lastNameError = this.validateLastName(lastName);
 
     return this.setState({ lastNameError });
   };
