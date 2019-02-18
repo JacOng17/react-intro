@@ -6,6 +6,7 @@ import Greetings from "./components/Greetings";
 import SimpleForm from './components/SimpleForm';
 import Clock from './components/clock.js'
 
+// Where you add your components (i.e. SimpleForm, Clock, etc...)
 const App = () => (
   <div className="App">
     <header className="App-header">
