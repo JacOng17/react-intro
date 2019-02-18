@@ -76,24 +76,24 @@ The remainder of this document contains a tutorial on creating a React app (usin
 
 ## Prerequisites
 
-1. An adequate version of [`Node.js`](https://nodejs.org/) is installed. Here's the adequate version I use:
+1. [`Node.js`](https://nodejs.org/) is installed (this version or higher):
 
     ```sh
     $ node --version
-    v6.10.1
+    v11.10.0
     ```
 
-2. An adequate version of  [`npm`](https://nodejs.org/) is installed. Here's the adequate version I use:
+2. [`npm`](https://nodejs.org/) (this version or higher):
 
     ```sh
     $ npm --version
-    3.10.10
+    6.7.0
     ```
-3. An adequate version of [`create-react-app`](https://github.com/facebookincubator/create-react-app) is installed. Here's the adequate version I use:
+3. [`create-react-app`](https://github.com/facebookincubator/create-react-app) (this version or higher):
 
     ```sh
     $ create-react-app --version
-    1.3.1
+    2.1.3
     ```
 
     In the case of `create-react-app`, you can either install it globally (i.e. `$ npm install -g create-react-app`) or install it locally (i.e. `$ npm install create-react-app`). If you choose the latter, you will have to specify its path whenever you invoke it (e.g. `path/to/node_modules/.bin/create-react-app`).
