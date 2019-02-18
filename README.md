@@ -27,6 +27,10 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run deploy`
+
+Deploys the code to be published at: [https://JacOng17.github.io/react-intro/](https://JacOng17.github.io/react-intro/)
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -64,15 +68,11 @@ https://raw.githubusercontent.com/gitname/react-gh-pages/master/README.md
 
 # Introduction
 
-How to deploy a React app—which I created using `create-react-app`—to GitHub Pages.
+How to deploy a React app (created using `create-react-app`) to GitHub Pages.
 
 You can visit the deployed app, at [https://JacOng17.github.io/react-intro/](https://JacOng17.github.io/react-intro/).
 
 This repository contains the files related to the app. The `master` branch contains the app's source code (the code the app's developers edit), and the `gh-pages` branch contains a *built* version of the app (i.e. the code that GitHub Pages serves to the app's visitors).
-
-The remainder of this document contains a tutorial on creating a React app (using `create-react-app`) and deploying that app to GitHub Pages.
-
-# Tutorial
 
 ## Prerequisites
 
@@ -112,9 +112,6 @@ The remainder of this document contains a tutorial on creating a React app (usin
 $ create-react-app <app name>
 ```
 
-* This is the app you will deploy to GitHub Pages in step 7.
-* This will create a new folder named `react-intro` (or whatever you named your app) on your computer.
-
 3. **Install the `gh-pages` package as a "dev-dependency" of the app.** (1 minute)
 
 ```sh
@@ -122,18 +119,16 @@ $ cd react-gh-pages
 $ npm install gh-pages --save-dev
 ```
 
-* The commands shown in the following steps can all be issued from within the app's folder.
-
 4. **Add some properties to the app's `package.json` file.** (3 minutes)
 
-* At the top level, add a `homepage` property. Define its value to be the string `http://{username}.github.io/{repo-name}`, where `{username}` is your GitHub username, and `{repo-name}` is the name of the GitHub repository you created in step 1.
+* At the top level, add a `homepage` property where `{username}` is your GitHub username, and `{repo-name}` is the name of the GitHub repository you created in step 1.
 
 ```js
 //...
 "homepage": "http://{username}.github.io/{repo-name}"
 ```
 
-* In the existing `scripts` property, add a `predeploy` property and a `deploy` property, each having the values shown below:
+* In the existing `scripts` property, add a `predeploy` property and a `deploy` property with the values:
 
 ```js
 "scripts": {
