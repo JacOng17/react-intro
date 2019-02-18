@@ -11,7 +11,7 @@ const App = () => (
   <div className="App">
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
-      <Greetings firstName="John" lastName="Smith" />
+      <Greetings firstName="Jacob" lastName="Ong" />
     </header>
     
     <SimpleForm />
