@@ -10,7 +10,7 @@ script:
 deploy:
   provider: pages # Specifies we’re using GitHub Pages.
   skip-cleanup: true # Tells Travis not to delete build files.
-  github-token: $GITHUB_TOKEN  # Sets the GitHub token. Using an environment variable to avoid exposing our token to the public.
+  github-token: "$GITHUB_TOKEN"  # Sets the GitHub token. Using an environment variable to avoid exposing our token to the public.
   keep-history: true
   local_dir: build # Tells Travis to only take the files from the /build directory for deployment.
   on:
