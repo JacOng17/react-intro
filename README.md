@@ -1,4 +1,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/2510b63e7c562c6a0691/maintainability)](https://codeclimate.com/github/JacOng17/react-intro/maintainability)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/JacOng17/react-intro.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/JacOng17/react-intro/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/JacOng17/react-intro.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/JacOng17/react-intro/context:javascript)
 [![Build Status](https://travis-ci.org/JacOng17/react-intro.svg?branch=master)](https://travis-ci.org/JacOng17/react-intro)
 
 
