@@ -3,12 +3,7 @@
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/JacOng17/react-intro.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/JacOng17/react-intro/context:javascript)
 [![Build Status](https://travis-ci.org/JacOng17/react-intro.svg?branch=master)](https://travis-ci.org/JacOng17/react-intro)
 
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Available Scripts
 
@@ -153,7 +148,9 @@ $ npm run deploy
 * So, the `master` branch held the source code, and the `gh-pages` branch held the *built* app code.
 
 ## Learn More
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 ### Code Splitting
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
