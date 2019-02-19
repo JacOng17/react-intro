@@ -1,4 +1,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/2510b63e7c562c6a0691/maintainability)](https://codeclimate.com/github/JacOng17/react-intro/maintainability)
+[![Build Status](https://travis-ci.org/JacOng17/react-intro.svg?branch=master)](https://travis-ci.org/JacOng17/react-intro)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
