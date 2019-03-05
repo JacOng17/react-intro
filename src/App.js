@@ -4,8 +4,11 @@ import logo from './logo.svg';
 import './App.css';
 // import Greetings from "./components/Greetings";
 import SimpleForm from './components/SimpleForm';
-import Clock from './components/clock.js';
+import Clock from './components/Clock';
 import { Container, Row, Col } from 'react-grid-system'
+import Toggle from './components/Toggle';
+import LoginControl from './components/LoginControl';
+import PageWarning from './components/PageWarning';
 
 // Where you add your components (i.e. SimpleForm, Clock, etc...)
 const App = () => (
@@ -15,27 +18,37 @@ const App = () => (
       {/* <Greetings firstName="Jacob" lastName="Ong" /> */}
     </header>
     <Container>
-  <Row>
-    <Col sm={4}>
-      <SimpleForm />
-    </Col>
-    <Col sm={4}>
-      <Clock />
-    </Col>
-    <Col sm={4}>
-      One of three columns
-    </Col>
-  </Row>
-  <Row>
-    <Col md={6}>
-    <Clock />
-    </Col>
-    <Col md={6}>
-    One of two columns
-    </Col>
-  </Row>
-</Container>
-
+      <Row>
+        <Col sm={4}>
+          <SimpleForm />
+        </Col>
+        <Col sm={4}>
+          <Clock />
+        </Col>
+        <Col sm={4}>
+          <LoginControl />
+        </Col>
+      </Row>
+      <Row>
+        <Col md={6}>
+        <Toggle />
+        </Col>
+        <Col md={6}>
+          <PageWarning />
+        </Col>
+      </Row>
+      <Row>
+      <Col sm={4}>
+          
+        </Col>
+        <Col sm={4}>
+          
+        </Col>
+        <Col sm={4}>
+          
+        </Col>
+      </Row>
+    </Container> 
   </div>
 );
 

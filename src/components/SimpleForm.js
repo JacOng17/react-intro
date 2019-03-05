@@ -1,6 +1,5 @@
 import React from "react";
 import style from "./style";
-import Greetings from './Greetings';
 import FirstNameField from './FirstNameField';
 import LastNameField from './LastNameField';
 
@@ -67,7 +66,7 @@ class SimpleForm extends React.Component {
                         onBlur={this.onLastNameBlur}
                         error={lastNameError} />
 
-        <Greetings firstName={firstName} lastName={lastName} />
+        Hi {firstName} {lastName}.
       </div>
     );
   }
