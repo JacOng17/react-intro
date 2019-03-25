@@ -9,6 +9,8 @@ import { Container, Row, Col } from 'react-grid-system'
 import Toggle from './components/Toggle';
 import LoginControl from './components/LoginControl';
 import PageWarning from './components/PageWarning';
+import NameForm from './components/NameForm';
+import Calculator from './components/Calculator';
 
 // Where you add your components (i.e. SimpleForm, Clock, etc...)
 const App = () => (
@@ -39,10 +41,10 @@ const App = () => (
       </Row>
       <Row>
       <Col sm={4}>
-          
+          <NameForm />
         </Col>
         <Col sm={4}>
-          
+          <Calculator />
         </Col>
         <Col sm={4}>
           
